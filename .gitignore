@@ -2,3 +2,4 @@
 *.log
 *.pb
 .ipynb_checkpoints
+.DS_Store
