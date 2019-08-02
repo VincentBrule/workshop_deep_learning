@@ -31,7 +31,7 @@ PARTIE_1
    │   interaction.html -> HTML code to allow user to create dataset
 ```
 
-**Partie 2**: Classify images with digits MNIST: MLP
+**Partie 2**: Classify images with digits MNIST: MLP (In progress)
 ```
 PARTIE_2    
 └───notebooks
