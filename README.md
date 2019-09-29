@@ -31,19 +31,23 @@ PARTIE_1
    │   interaction.html -> HTML code to allow user to create dataset
 ```
 
-**Partie 2**: Classify images with digits MNIST: MLP (In progress)
+**Partie 2**: Classify images with digits MNIST: MLP
 ```
 PARTIE_2    
 └───notebooks
-   │   inference_MNIST.ipynb -> allow user to draw digits and to recognize it with MLP
-   |   training_MNIST.ipynb -> train MLP on MNIST dataset
+   |   training_MNIST.ipynb -> train MLP on MNIST dataset and infererence to test results
 └───resources
    │   dataset -> folder to save MNIST dataset
-   |   images -> folder to save user digits
-   |   drawing.html -> user interface to draw digit inside Jupyter notebook
 ```
 
-**TODO Partie 3 and Partie 4**
+**Partie 3**: Classify images with digits MNIST: CNN
+```
+PARTIE_3    
+└───notebooks
+   |   training_MNIST_CNN.ipynb -> train CNN on MNIST dataset and infererence to test results
+└───resources
+   │   dataset -> folder to save MNIST dataset
+```
 
 ### Workshop Topics
 **Slides** *(10-15’)*:
