@@ -1,7 +1,5 @@
 
-# Workshop ScalaIO 2019
-
-#### This repository contains notebooks for the workshop at ScalaIO.
+#### This repository contains notebooks for the workshop.
 
 
 In the folder `examples`, you can find all the notebooks I made during my internship to help you.
