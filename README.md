@@ -12,7 +12,7 @@ In each examples, you have a small README to install prerequisites to run it.
 
 ### Prerequisites
 1. [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html)
-2. [Scala kernel for Jupyter](https://almond.sh/docs/quick-start-install). You need  the version 0.8.1 (Almond) with 2.12.8 (Scala) to run notebook examples
+2. [Scala kernel for Jupyter](https://almond.sh/docs/quick-start-install). You need  the version 0.9.1 (Almond) with 2.12.10 (Scala) to run notebook examples
 
 ### Useful documentations
 1. [Scala API for Tensorflow](https://github.com/eaplatanios/tensorflow_scala)
