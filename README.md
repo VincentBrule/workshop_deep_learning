@@ -1,7 +1,7 @@
 
 #### Instructions
-1. In the root folder, `$docker build -t workshop_scala_tensorflow workshop_deep_learning`
-2. In the root folder, `docker-compose up`
+1. `docker build -t workshop_scala_tensorflow workshop_deep_learning`
+2. `docker-compose up`
 3. Access `localhost:8888`
 
 
