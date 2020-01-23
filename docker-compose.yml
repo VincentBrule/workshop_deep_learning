@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  workshop_scala_tensorflow:
+    ports:
+      - 8888:8888
+    volumes:
+      - ./workshop:/home/jovyan/work
+    build: .

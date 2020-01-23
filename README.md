@@ -1,6 +1,11 @@
 
-#### This repository contains notebooks for the workshop.
+#### Instructions
+1. In the root folder, `$docker build -t workshop_scala_tensorflow workshop_deep_learning`
+2. In the root folder, `docker-compose up`
+3. Access `localhost:8888`
 
+
+#### This repository contains notebooks for the workshop.
 
 In the folder `examples`, you can find all the notebooks I made during my internship to help you.
 In each examples, you have a small README to install prerequisites to run it.
