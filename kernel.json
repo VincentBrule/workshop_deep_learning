@@ -1,0 +1,13 @@
+{
+  "language" : "scala",
+  "display_name" : "Scala",
+  "argv" : [
+    "java",
+    "-Xms1500m",
+    "-Xmx1900m",
+    "-jar",
+    "/Users/vincentbrule/Library/Jupyter/kernels/scala/launcher.jar",
+    "--connection-file",
+    "{connection_file}"
+  ]
+}

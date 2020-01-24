@@ -63,4 +63,10 @@ RUN rm /tmp/almond
 
 WORKDIR /home/$NB_USER/work
 
+RUN rm $(jupyter --data-dir)/kernels/scala/kernel.json
+
+COPY ./kernel.json /home/$NB_USER/work
+
+RUN mv ./kernel.json $(jupyter --data-dir)/kernels/scala
+
 CMD jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
