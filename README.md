@@ -1,5 +1,6 @@
 
 #### Instructions
+VERIFY YOUR DOCKER SETUP, please put at least 6GB for the RAM
 1. `docker build -t workshop_scala_tensorflow .`
 2. `docker-compose up`
 3. Access `localhost:8888`
