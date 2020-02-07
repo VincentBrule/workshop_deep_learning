@@ -1,28 +1,19 @@
 
 #### Instructions
-VERIFY YOUR DOCKER SETUP, please put at least 6GB for the RAM
+First solution: Use the image gave by the speaker.
+
+Second solution: VERIFY YOUR DOCKER SETUP, please put at least 6GB for the RAM.
 1. `docker build -t workshop_scala_tensorflow .`
 2. `docker-compose up`
 3. Access `localhost:8888`
 
-
-#### This repository contains notebooks for the workshop.
-
-In the folder `examples`, you can find all the notebooks I made during my internship to help you.
-In each examples, you have a small README to install prerequisites to run it.
-
-### Prerequisites
+### Prerequisites (They are included in above solutions)
 1. [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 2. [Scala kernel for Jupyter](https://almond.sh/docs/quick-start-install). You need  the version 0.9.1 (Almond) with 2.12.10 (Scala) to run notebook examples
 
 ### Useful documentations
 1. [Scala API for Tensorflow](https://github.com/eaplatanios/tensorflow_scala)
 2. [Almond documentation to interact with Jupyter](https://almond.sh/docs/api-jupyter)
-
-### Notebook examples
-1. anonymization: anonymize an image (plates and faces)
-2. simpleSort: initial version of the [SORT algorithm](https://arxiv.org/pdf/1602.00763.pdf)
-3. Soft-NMS: algorithm to reduce number of detection boxes
 
 ### Workshop organization
 **Partie 1**: Learning a simple linear model
@@ -52,6 +43,8 @@ PARTIE_3
 └───resources
    │   dataset -> folder to save MNIST dataset
 ```
+
+**Partie 4**: Object Detection with Akka HTTP
 
 ### Workshop Topics
 **Slides** *(10-15’)*:
