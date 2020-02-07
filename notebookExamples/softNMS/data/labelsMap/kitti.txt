@@ -1,2 +1,0 @@
-1 car
-2 person
