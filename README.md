@@ -1,13 +1,19 @@
 
-#### This repository contains notebooks for the workshop.
+#### Instructions
+VERIFY YOUR DOCKER SETUP, please put at least 6GB for the RAM
+1. `docker build -t workshop_scala_tensorflow .`
+2. `docker-compose up`
+3. Access `localhost:8888`
 
+
+#### This repository contains notebooks for the workshop.
 
 In the folder `examples`, you can find all the notebooks I made during my internship to help you.
 In each examples, you have a small README to install prerequisites to run it.
 
 ### Prerequisites
 1. [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html)
-2. [Scala kernel for Jupyter](https://almond.sh/docs/quick-start-install). You need  the version 0.8.1 (Almond) with 2.12.8 (Scala) to run notebook examples
+2. [Scala kernel for Jupyter](https://almond.sh/docs/quick-start-install). You need  the version 0.9.1 (Almond) with 2.12.10 (Scala) to run notebook examples
 
 ### Useful documentations
 1. [Scala API for Tensorflow](https://github.com/eaplatanios/tensorflow_scala)

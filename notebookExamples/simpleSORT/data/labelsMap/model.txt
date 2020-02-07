@@ -1,3 +1,0 @@
-1 pedestrian
-2 biker
-3 motorcyclist
